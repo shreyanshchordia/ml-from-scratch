@@ -43,11 +43,11 @@ model.fit(X_train, Y_train)
 
 print('Evaluating on the data it is trained:')
 print(model.evaluate(X_train, Y_train))
-# 0.91865 (results that model achieved)
+# 0.915 (results that model achieved)
 
 print('Evaluating on testing data')
 print(model.evaluate(X_test, Y_test))
-# 0.9207666666666666 (results that model achieved)
+# 0.9283(results that model achieved)
 
 
 
